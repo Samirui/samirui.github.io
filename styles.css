@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#about h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#experience .job, #skills ul, #certifications ul, #contact ul {
+    margin-bottom: 2rem;
+}
+
+#experience h3, #experience h4 {
+    margin-bottom: .5rem;
+}
+
+#experience ul, #skills ul, #certifications ul, #contact ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+#skills ul li, #certifications ul li, #contact ul li {
+    margin-bottom: .5rem;
+}
+
+#certifications ul li a, #contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#certifications ul li a:hover, #contact ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
